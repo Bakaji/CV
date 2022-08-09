@@ -1,29 +1,9 @@
 * {
   font-family: "Teshrin-400" !important;
 }
-:root {
-  --main-color: #fad400;
-  --main-dark-color: rgb(234 179 8);
-}
-
-.text-main-color {
-  color: var(--main-color);
-}
-
-.bg-main-color {
-  background-color: var(--main-dark-color);
-}
-
-.line-bg {
-  background-color: var(--main-dark-color);
-}
 .text-cool-gray-100 {
   min-width: 64px;
   margin-inline-start: 10px;
-  background-color: var(--main-dark-color);
-}
-.hover-text-amber-600:hover{
-  color:var(--main-dark-color);
 }
 .skills-grid {
   display: grid;

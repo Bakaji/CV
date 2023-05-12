@@ -32,6 +32,11 @@
 }
 
 @media print {
+  @page{
+    margin: 0;
+    scale: 0.75;
+    padding: 0;
+  }
   .cv {
     height: 100vh !important;
   }
